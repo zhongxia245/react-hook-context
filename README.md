@@ -2,6 +2,8 @@
 
 创建一个根 store 来管理状态和改变状态, 可以用来做小型应用的状态管理，适合全局共享状态。
 
+线上 DEMO 地址: [点这里](https://react-hook-context.izhongxia.now.sh) 
+
 ```jsx
 // context/index.tsx
 import React, { useState } from 'react';

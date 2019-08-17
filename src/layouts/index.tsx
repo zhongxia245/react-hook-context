@@ -6,8 +6,12 @@ const BasicLayout: React.FC = props => {
   return (
     <AppContextProvider>
       <header>
-        <Link to="/">home</Link>
-        <Link to="/demo">demo</Link>
+        <Link to="/" style={{ marginRight: 10 }}>
+          home
+        </Link>
+        <Link to="/demo" style={{ marginRight: 10 }}>
+          demo
+        </Link>
         <Link to="/list">list</Link>
       </header>
       <div>{props.children}</div>

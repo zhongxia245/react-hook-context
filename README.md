@@ -95,4 +95,4 @@ export default function() {
 同样的在 `pages/list.tsx` 也可以这样获取全局的状态。
 
 
-更详细清看源码。
+更详细请看源码，[点这里](https://github.com/zhongxia245/react-hook-context)。
